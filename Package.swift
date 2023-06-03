@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "HAP",
     platforms: [
-        .macOS(.v11),
+        .tvOS(.v13),
     ],
     products: [
         .library(name: "HAP", targets: ["HAP"]),
