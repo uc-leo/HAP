@@ -43,6 +43,8 @@ public class FileStorage: Storage {
 public class MemoryStorage: Storage {
     var memory = Data()
 
+    public init() {}
+
     public func read() throws -> Data {
         memory
     }

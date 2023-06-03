@@ -6,6 +6,7 @@ let package = Package(
     name: "HAP",
     platforms: [
         .tvOS(.v14),
+        .macOS(.v11),
     ],
     products: [
         .library(name: "HAP", targets: ["HAP"]),
